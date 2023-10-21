@@ -8,7 +8,7 @@ from src.app import squares
 class AppTests(unittest.TestCase):
     def test_app(self):
         """Simple Tests"""
-        self.assertEqual(squares(10), 100)
+        self.assertEqual(squares(10), 1001)
         self.assertNotEqual(squares(20), 5)
 
     def test_pass(self):
